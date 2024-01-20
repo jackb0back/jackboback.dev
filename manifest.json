@@ -1,0 +1,24 @@
+{
+    "theme_color" : "#333",
+    "background_color" : "#777",
+    "display" : "Standalone",
+    "scope" : "/",
+    "start_url" : "/",
+    "name" : "Jackboback.dev",
+    "short_name" : "jack",
+    "description" : "",
+    "icons": [
+        {
+          "purpose": "maskable",
+          "sizes": "512x512",
+          "src": "res/pfp.png",
+          "type": "image/png"
+        },
+        {
+          "purpose": "any",
+          "sizes": "512x512",
+          "src": "res/pfp.png",
+          "type": "image/png"
+        }
+      ]
+}

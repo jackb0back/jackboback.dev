@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackboback.dev</title>
+    <link rel="stylesheet" href="res/index.css">
+    <link rel="icon" href="res/pfp.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/dark.css" />
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/nextapps-de/winbox@master/dist/winbox.bundle.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/shoelace-autoloader.js"></script>
+
+    <div id="tnav" class="glass">
+        <h1 style="display: inline-block;letter-spacing: -5px" class="rainbow Mars">Jackboback . dev</h1>
+        <h3 style="display: inline;">v2</h3>
+        
+    </div>
+
+    <div class="header">
+        <div id="snow"></div>
+          <!--Content before waves-->
+          <div class="inner-header flex">
+          <!--Just the logo.. Don't mind this-->
+          
+          </div>
+          
+          <!--Waves Container-->
+          <div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="var(--c1)" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="var(--c2)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="var(--c3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="var(--c4)" />
+          </g>
+          </svg>
+          </div>
+          <!--Waves end-->
+          
+          </div>
+          <!--Header ends-->
+
+    <div id="main-content">
+        <div class="cont" id="cont-home">
+            <h1>Home</h1>
+            <!--
+            <div onmouseleave="enableScroll()" onmousewheel="scrollContent(this);" class="items" id="home-lat"  style="width: 90%;">
+                <div class="rect glass">test</div>
+                <div class="rect glass"></div>
+                <div class="rect glass"></div>
+                <div class="rect glass">See all...</div>
+              </div>
+              -->
+              <fieldset class="glass">
+                <legend>
+            <h2>Welcome!</h2>
+            </legend>
+            <p>Hi im a 15 year old front end web developer and game dev, I like VR, AR and linux! here <br> is a few laungages im familiar with: </p>
+            
+            <div style="text-align: left;position:relative; left: 50%; transform: translate(-50%,0);width: 15%;">
+                <p>(Best know)</p>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>css</li>
+                <li>C#</li>
+                <li>Java</li>
+                <p>(Least known)</p>
+              </div>
+              </fieldset>
+        </div>
+        <div class="cont" id="cont-blog">
+            <h1>Blog</h1>
+
+        </div>
+        <div class="cont" id="cont-projects">
+            <h1>Projects</h1>
+        </div>
+        <div class="cont" id="cont-contact">
+            <h1>Contact</h1>
+        </div>
+    </div>
+
+
+
+<div class="glass" id="navBar">
+    <sl-tooltip class="sl-theme-dark" content="Home">
+           <img onclick="showCont('cont-home')" class="icon" src="https://cdn.jsdelivr.net/gh/jackb0back/streamingAssets@main/OASISX/home.png" alt="">
+    </sl-tooltip>
+
+    <sl-tooltip class="sl-theme-dark" content="Blog">
+        <img onclick="showCont('cont-blog')" class="icon" src="res/blog.png" alt="">
+    </sl-tooltip>
+
+
+    <sl-tooltip class="sl-theme-dark" content="Projects">
+         <img onclick="showCont('cont-projects')" class="icon" src="res/code.png" alt="">
+    </sl-tooltip>
+
+    <sl-tooltip class="sl-theme-dark" content="Contact">
+         <img onclick="showCont('cont-contact')" class="icon" src="res/pfp.png" alt="">
+    </sl-tooltip>
+
+</div>
+
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2353081821924753"
+    crossorigin="anonymous"></script>
+
+
+    <script src="res/nav.js"></script>
+</body>
+</html>
