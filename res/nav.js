@@ -1,5 +1,5 @@
 var navs = document.getElementsByClassName("cont");
-var home = "cont-contact";
+var home = "cont-home";
 var currentNav = home;
 for (let i = 0; i < navs.length; i++) {
     navs[i].style.display = "none";
